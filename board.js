@@ -102,10 +102,10 @@ function findBestMove(board){
 	}
 	return nextBoard;
 }
-/* getNextBoard
+/* getNextBoards
  *
- * Takes in a board and returns the next board
- * given the move we are considering
+ * Takes in a board and returns an arry of
+ * the next board given it is side's move
  */
 function getNextBoards(board, side){
 	var boards = [];
